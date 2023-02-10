@@ -1,0 +1,41 @@
+.cards{
+    display: flex;  
+}
+
+.card-container{
+    display: flex;
+    flex-direction: column;
+    min-height: 250px;
+    min-width: 150px;
+    width: 200px;
+    border-radius: 5%;
+    background-color: #fff;
+    margin: 1%;
+} 
+.image-container{
+    height: 80%;
+    width: 100%;
+}
+
+.image-container img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 5%;
+    border-top-right-radius: 5%;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 2% 2% 0% 2%;
+}
+
+.name-container{
+    text-decoration: black;
+    text-shadow: #e4dfdf;
+}
+
+.price-container{
+    text-decoration: black;
+    text-shadow: #e4dfdf;
+}
